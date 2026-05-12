@@ -10,7 +10,7 @@ struct DadosComplexidade {
     std::string nome;
     double (*f_teorica)(int);
 };
-
+ 
 double f_n(int n) { return static_cast<double>(n); }
 double f_n_log_n(int n) { return n * std::log2(n > 0 ? n : 1); }
 double f_n_quadrado(int n) { return std::pow(n, 2); }
